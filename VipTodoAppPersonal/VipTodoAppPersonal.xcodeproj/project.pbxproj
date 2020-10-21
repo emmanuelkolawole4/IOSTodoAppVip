@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C133E0B2540A7C10037627D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E0A2540A7C10037627D /* AppDelegate.swift */; };
+		4C133E0F2540A7C10037627D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E0E2540A7C10037627D /* ViewController.swift */; };
+		4C133E142540A7C30037627D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C133E132540A7C30037627D /* Assets.xcassets */; };
+		4C133E172540A7C30037627D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C133E152540A7C30037627D /* LaunchScreen.storyboard */; };
+		4C133E302540AB160037627D /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E2F2540AB160037627D /* StringConstants.swift */; };
+		4C133E332540AB2B0037627D /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E322540AB2B0037627D /* TextField+Extension.swift */; };
+		4C133E372540AB490037627D /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E352540AB490037627D /* MainNavigationController.swift */; };
+		4C133E382540AB490037627D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E362540AB490037627D /* SceneDelegate.swift */; };
+		4C133E3F2540AC400037627D /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E3E2540AC400037627D /* TodoModel.swift */; };
+		4C133E4D2540AD230037627D /* ListTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E4C2540AD230037627D /* ListTodosViewController.swift */; };
+		4C133E512540AD510037627D /* AddNewTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E502540AD510037627D /* AddNewTodoViewController.swift */; };
+		4C133E552540AD6E0037627D /* ShowTodoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E542540AD6E0037627D /* ShowTodoDetailsViewController.swift */; };
+		4C133E612540AE310037627D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E602540AE310037627D /* UIViewController+Extension.swift */; };
+		4C133E642540AFCB0037627D /* ListTodosInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E632540AFCB0037627D /* ListTodosInteractor.swift */; };
+		4C133E672540AFE60037627D /* ListTodosWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E662540AFE60037627D /* ListTodosWorker.swift */; };
+		4C133E6A2540AFF40037627D /* ListTodosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E692540AFF40037627D /* ListTodosPresenter.swift */; };
+		4C133E742540BBDA0037627D /* AddNewTodoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E732540BBDA0037627D /* AddNewTodoInteractor.swift */; };
+		4C133E772540BBF30037627D /* AddNewTodoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E762540BBF30037627D /* AddNewTodoWorker.swift */; };
+		4C133E7A2540C0840037627D /* ShowTodoDetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E792540C0840037627D /* ShowTodoDetailsWorker.swift */; };
+		4C133E7D2540C08E0037627D /* ShowTodoDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E7C2540C08E0037627D /* ShowTodoDetailsInteractor.swift */; };
+		4C133E802540C8E80037627D /* DeleteTodoWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C133E7F2540C8E80037627D /* DeleteTodoWorker.swift */; };
+		73A53D23BAE2D64AFFE6CBDB /* Pods_VipTodoAppPersonal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE42C5C20E1D78CFE58354E /* Pods_VipTodoAppPersonal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22FAF343F84F0038C1CDB719 /* Pods-VipTodoAppPersonal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipTodoAppPersonal.release.xcconfig"; path = "Target Support Files/Pods-VipTodoAppPersonal/Pods-VipTodoAppPersonal.release.xcconfig"; sourceTree = "<group>"; };
+		4C133E072540A7C10037627D /* VipTodoAppPersonal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipTodoAppPersonal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C133E0A2540A7C10037627D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C133E0E2540A7C10037627D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C133E132540A7C30037627D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C133E162540A7C30037627D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C133E182540A7C30037627D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C133E2F2540AB160037627D /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		4C133E322540AB2B0037627D /* TextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		4C133E352540AB490037627D /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		4C133E362540AB490037627D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C133E3E2540AC400037627D /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		4C133E4C2540AD230037627D /* ListTodosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTodosViewController.swift; sourceTree = "<group>"; };
+		4C133E502540AD510037627D /* AddNewTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewTodoViewController.swift; sourceTree = "<group>"; };
+		4C133E542540AD6E0037627D /* ShowTodoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTodoDetailsViewController.swift; sourceTree = "<group>"; };
+		4C133E602540AE310037627D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		4C133E632540AFCB0037627D /* ListTodosInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodosInteractor.swift; sourceTree = "<group>"; };
+		4C133E662540AFE60037627D /* ListTodosWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodosWorker.swift; sourceTree = "<group>"; };
+		4C133E692540AFF40037627D /* ListTodosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodosPresenter.swift; sourceTree = "<group>"; };
+		4C133E732540BBDA0037627D /* AddNewTodoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodoInteractor.swift; sourceTree = "<group>"; };
+		4C133E762540BBF30037627D /* AddNewTodoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTodoWorker.swift; sourceTree = "<group>"; };
+		4C133E792540C0840037627D /* ShowTodoDetailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTodoDetailsWorker.swift; sourceTree = "<group>"; };
+		4C133E7C2540C08E0037627D /* ShowTodoDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTodoDetailsInteractor.swift; sourceTree = "<group>"; };
+		4C133E7F2540C8E80037627D /* DeleteTodoWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteTodoWorker.swift; sourceTree = "<group>"; };
+		5DA45E9C2A8EC43AD67D1780 /* Pods-VipTodoAppPersonal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipTodoAppPersonal.debug.xcconfig"; path = "Target Support Files/Pods-VipTodoAppPersonal/Pods-VipTodoAppPersonal.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE42C5C20E1D78CFE58354E /* Pods_VipTodoAppPersonal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipTodoAppPersonal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C133E042540A7C10037627D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A53D23BAE2D64AFFE6CBDB /* Pods_VipTodoAppPersonal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2901F65AAD8EE457D2E3E666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE42C5C20E1D78CFE58354E /* Pods_VipTodoAppPersonal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C133DFE2540A7C10037627D = {
+			isa = PBXGroup;
+			children = (
+				4C133E092540A7C10037627D /* VipTodoAppPersonal */,
+				4C133E082540A7C10037627D /* Products */,
+				D24FEB679FC111C8F1AFC7E9 /* Pods */,
+				2901F65AAD8EE457D2E3E666 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C133E082540A7C10037627D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E072540A7C10037627D /* VipTodoAppPersonal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C133E092540A7C10037627D /* VipTodoAppPersonal */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E2B2540A95D0037627D /* Scenes */,
+				4C133E2A2540A94D0037627D /* StringConstants */,
+				4C133E292540A93E0037627D /* HelperClasses */,
+				4C133E262540A8D00037627D /* Models */,
+				4C133E0A2540A7C10037627D /* AppDelegate.swift */,
+				4C133E352540AB490037627D /* MainNavigationController.swift */,
+				4C133E362540AB490037627D /* SceneDelegate.swift */,
+				4C133E0E2540A7C10037627D /* ViewController.swift */,
+				4C133E132540A7C30037627D /* Assets.xcassets */,
+				4C133E152540A7C30037627D /* LaunchScreen.storyboard */,
+				4C133E182540A7C30037627D /* Info.plist */,
+			);
+			path = VipTodoAppPersonal;
+			sourceTree = "<group>";
+		};
+		4C133E262540A8D00037627D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E3E2540AC400037627D /* TodoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C133E292540A93E0037627D /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E322540AB2B0037627D /* TextField+Extension.swift */,
+				4C133E602540AE310037627D /* UIViewController+Extension.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		4C133E2A2540A94D0037627D /* StringConstants */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E2F2540AB160037627D /* StringConstants.swift */,
+			);
+			path = StringConstants;
+			sourceTree = "<group>";
+		};
+		4C133E2B2540A95D0037627D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E2E2540AA630037627D /* ShowTodoDetails */,
+				4C133E2D2540A9730037627D /* AddNewTodo */,
+				4C133E2C2540A96A0037627D /* ListTodos */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4C133E2C2540A96A0037627D /* ListTodos */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E4C2540AD230037627D /* ListTodosViewController.swift */,
+				4C133E632540AFCB0037627D /* ListTodosInteractor.swift */,
+				4C133E662540AFE60037627D /* ListTodosWorker.swift */,
+				4C133E7F2540C8E80037627D /* DeleteTodoWorker.swift */,
+				4C133E692540AFF40037627D /* ListTodosPresenter.swift */,
+			);
+			path = ListTodos;
+			sourceTree = "<group>";
+		};
+		4C133E2D2540A9730037627D /* AddNewTodo */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E502540AD510037627D /* AddNewTodoViewController.swift */,
+				4C133E732540BBDA0037627D /* AddNewTodoInteractor.swift */,
+				4C133E762540BBF30037627D /* AddNewTodoWorker.swift */,
+			);
+			path = AddNewTodo;
+			sourceTree = "<group>";
+		};
+		4C133E2E2540AA630037627D /* ShowTodoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4C133E542540AD6E0037627D /* ShowTodoDetailsViewController.swift */,
+				4C133E792540C0840037627D /* ShowTodoDetailsWorker.swift */,
+				4C133E7C2540C08E0037627D /* ShowTodoDetailsInteractor.swift */,
+			);
+			path = ShowTodoDetails;
+			sourceTree = "<group>";
+		};
+		D24FEB679FC111C8F1AFC7E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DA45E9C2A8EC43AD67D1780 /* Pods-VipTodoAppPersonal.debug.xcconfig */,
+				22FAF343F84F0038C1CDB719 /* Pods-VipTodoAppPersonal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C133E062540A7C10037627D /* VipTodoAppPersonal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C133E1B2540A7C30037627D /* Build configuration list for PBXNativeTarget "VipTodoAppPersonal" */;
+			buildPhases = (
+				2306DE3CDD7422BF3ECDEE55 /* [CP] Check Pods Manifest.lock */,
+				4C133E032540A7C10037627D /* Sources */,
+				4C133E042540A7C10037627D /* Frameworks */,
+				4C133E052540A7C10037627D /* Resources */,
+				234417944C57712D0B464961 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VipTodoAppPersonal;
+			productName = VipTodoAppPersonal;
+			productReference = 4C133E072540A7C10037627D /* VipTodoAppPersonal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C133DFF2540A7C10037627D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4C133E062540A7C10037627D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C133E022540A7C10037627D /* Build configuration list for PBXProject "VipTodoAppPersonal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C133DFE2540A7C10037627D;
+			productRefGroup = 4C133E082540A7C10037627D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C133E062540A7C10037627D /* VipTodoAppPersonal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C133E052540A7C10037627D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C133E172540A7C30037627D /* LaunchScreen.storyboard in Resources */,
+				4C133E142540A7C30037627D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2306DE3CDD7422BF3ECDEE55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VipTodoAppPersonal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234417944C57712D0B464961 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VipTodoAppPersonal/Pods-VipTodoAppPersonal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VipTodoAppPersonal/Pods-VipTodoAppPersonal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VipTodoAppPersonal/Pods-VipTodoAppPersonal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C133E032540A7C10037627D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C133E7D2540C08E0037627D /* ShowTodoDetailsInteractor.swift in Sources */,
+				4C133E672540AFE60037627D /* ListTodosWorker.swift in Sources */,
+				4C133E802540C8E80037627D /* DeleteTodoWorker.swift in Sources */,
+				4C133E642540AFCB0037627D /* ListTodosInteractor.swift in Sources */,
+				4C133E6A2540AFF40037627D /* ListTodosPresenter.swift in Sources */,
+				4C133E372540AB490037627D /* MainNavigationController.swift in Sources */,
+				4C133E772540BBF30037627D /* AddNewTodoWorker.swift in Sources */,
+				4C133E612540AE310037627D /* UIViewController+Extension.swift in Sources */,
+				4C133E742540BBDA0037627D /* AddNewTodoInteractor.swift in Sources */,
+				4C133E3F2540AC400037627D /* TodoModel.swift in Sources */,
+				4C133E382540AB490037627D /* SceneDelegate.swift in Sources */,
+				4C133E302540AB160037627D /* StringConstants.swift in Sources */,
+				4C133E7A2540C0840037627D /* ShowTodoDetailsWorker.swift in Sources */,
+				4C133E512540AD510037627D /* AddNewTodoViewController.swift in Sources */,
+				4C133E552540AD6E0037627D /* ShowTodoDetailsViewController.swift in Sources */,
+				4C133E0F2540A7C10037627D /* ViewController.swift in Sources */,
+				4C133E4D2540AD230037627D /* ListTodosViewController.swift in Sources */,
+				4C133E0B2540A7C10037627D /* AppDelegate.swift in Sources */,
+				4C133E332540AB2B0037627D /* TextField+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C133E152540A7C30037627D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C133E162540A7C30037627D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C133E192540A7C30037627D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C133E1A2540A7C30037627D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C133E1C2540A7C30037627D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA45E9C2A8EC43AD67D1780 /* Pods-VipTodoAppPersonal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR337SJ655;
+				INFOPLIST_FILE = VipTodoAppPersonal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagonhq.VipTodoAppPersonal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C133E1D2540A7C30037627D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FAF343F84F0038C1CDB719 /* Pods-VipTodoAppPersonal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR337SJ655;
+				INFOPLIST_FILE = VipTodoAppPersonal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagonhq.VipTodoAppPersonal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C133E022540A7C10037627D /* Build configuration list for PBXProject "VipTodoAppPersonal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C133E192540A7C30037627D /* Debug */,
+				4C133E1A2540A7C30037627D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C133E1B2540A7C30037627D /* Build configuration list for PBXNativeTarget "VipTodoAppPersonal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C133E1C2540A7C30037627D /* Debug */,
+				4C133E1D2540A7C30037627D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C133DFF2540A7C10037627D /* Project object */;
+}
